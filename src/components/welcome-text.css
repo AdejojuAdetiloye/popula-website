@@ -1,0 +1,53 @@
+.welcome-div-container{
+    height: 200px;
+    border: 2px solid black;
+    margin-top:30px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    background-color: rgba(58, 2, 80, 0.521);
+    border-radius: 15px;
+    color: rgb(233, 217, 217);
+}
+
+.welcome-div-header-text{
+    font-weight: bolder;
+    font-size: 2.6rem;
+    font-family: Arial;
+}
+
+.welcome-div-header-description{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* RESPONSIVE SCREENS */
+
+@media (max-width:360px) {
+    .welcome-div-container{
+        max-width:360px;
+        height: 150px;
+        border: 1px solid black;
+        margin-top:20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        background-color: rgba(58, 2, 80, 0.521);
+        border-radius: 10px;
+        color: rgb(233, 217, 217);
+    }
+    
+    .welcome-div-header-text{
+        font-weight: bolder;
+        font-size: 1.4rem;
+        padding-left: 10PX;
+        font-family: Arial;
+    }
+    
+    .welcome-div-description{
+        font-family: Arial;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 10px;
+    }
+}

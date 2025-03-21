@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.app-container {
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+  background-color: rgb(46, 4, 80);
+  margin-bottom: 0;
+  padding-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(37, 4, 66);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-footer {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(9, 1, 22);
+  margin-top: 100px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media (max-width: 360px) {
+  .app-container {
+    max-width: 360px;
+    font-family: Arial;
+    background-color: rgb(46, 4, 80);
+    margin-bottom: 0;
+    padding-top: 100px;
+  }
+  .header {
+    max-width: 360px;
+    height: 60px;
+  }
+
+  .main-footer {
+    height: 700px;
+    max-width: 360px;
+    background-color: rgb(9, 1, 22);
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width:361px) and (max-width:999px) {
+  .app-container {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    background-color: rgb(46, 4, 80);
+    margin-bottom: 0;
+    padding-top: 100px;
+  }
+  
+  .header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(37, 4, 66, 0.541);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

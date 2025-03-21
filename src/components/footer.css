@@ -1,0 +1,214 @@
+.footer{
+    height: 300px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.first{
+    height:250px;
+    padding:10px;
+    font-weight: 400;
+    color: rgb(240, 220, 220);
+}
+
+.first .company{
+    font-size: 1.3rem;
+}
+.first .email{
+    font-size: 0.8rem;  
+}
+.first .phones{
+    display: flex;
+    gap:8px;
+    font-size: 0.8rem;
+}
+.first .address{
+    font-size: 0.7rem;
+}
+
+.second{
+    height:250px;
+    color: rgb(240, 220, 220);
+    padding: 20px;
+}
+
+.second .motto{
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.second .description{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.second .copywright{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.third{
+    height:250px;
+    color: rgb(240, 220, 220);
+    padding: 10px;
+}
+.third .title{
+    font-weight: bolder;
+}
+
+.third .message-form{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+
+.message-form .email-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.message-form .message-input{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.message-form .submit-button{
+    width: 200px;
+    height: 36px;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    background-color: yellowgreen;
+    transition: background-color 1s;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.submit-button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+@media (max-width:360px) {
+    .footer{
+        height: 700px;
+        max-width: 360px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:8px;
+        row-gap: 0;
+    }
+    
+    .first{
+        height:170px;
+        padding:8px;
+        font-weight: 400;
+        color: rgb(240, 220, 220);
+        line-height: 10px;
+        margin: 0;
+    }
+    
+    .first .company{
+        font-size: 1.2rem;
+    }
+    .first .email{
+        font-size: 0.7rem;
+        margin:0;  
+    }
+    .first .phones{
+        display: flex;
+        gap:8px;
+        font-size: 0.9rem;
+        margin:0; 
+    }
+    .first .address{
+        font-size: 0.7rem;
+        margin:0; 
+    }
+    
+    .second{
+        height:180px;
+        max-width: 360px;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+        margin: 0;
+    }
+    
+    .second .motto{
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .second .description{
+        margin-top: 0;
+        font-weight: 300;
+        max-width: 300px;
+        font-size: 0.7rem;
+    }
+    
+    .second .copywright{
+        font-weight: 100;
+        font-size: 0.7rem;
+        margin-top:5px;
+    }
+    
+    .third{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:200px;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+        margin: 0;
+    }
+    .third .title{
+        font-weight: bolder;
+        margin-left: 50px;
+    }
+    
+    .third .message-form{
+        display: flex;
+        gap:8px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .message-form .email-input{
+        width: 250px;
+        height: 25px;
+        border-radius: 12.5px;
+        padding: 5px;
+    }
+    .message-form .message-input{
+        width: 250px;
+        height: 60px;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .message-form .submit-button{
+        width: 250px;
+        height: 35px;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        background-color: yellowgreen;
+        transition: background-color 1s;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        margin-left: 7px;
+
+    }
+    .submit-button:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }
+    
+}
+
