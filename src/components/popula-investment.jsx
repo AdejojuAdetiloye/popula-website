@@ -3,20 +3,20 @@ import "../components/popula-investment.css";
 export default function PopulaInvestment() {
   return (
     <>
-      <div className="popula-investment-div">
-        <div className="popula-investment-row">
-          <div className="popula-investment-image">
+      <div className="investment-div">
+        <div className="investment-row">
+          <div className="investment-image">
             <img
               src={require("../assets/images/coins.jpg")}
               alt="development"
-              className="development-image"
+              className="investment-image"
             />
           </div>
-          <div className="popula-investment-details">
-            <h1 className="popula-investment-details-title">
+          <div className="investment-details">
+            <h1 className="investment-details-title">
               Popula Investment
             </h1>
-            <h4 className="popula-investment-description">
+            <h4 className="investment-description">
               At Popula Investment, we have prefessional and financial analysts
               with many years of experience in analysing and trading
               Crypto,Forex,Indices and other Stocks markets with the sole of
@@ -30,15 +30,15 @@ export default function PopulaInvestment() {
           </div>
         </div>
       </div>
-      <div className="overlay-div">
+      <div className="investment-overlay-div">
         <img
           src={require("../assets/images/chart.jpg")}
           alt="thumbnail"
-          className="image-in"
+          className="investment-image-in"
         />
         <div>
-          <h4 className="name">Popula Financial Analysts</h4>
-          <h6 className="role">
+          <h4 className="investment-name">Popula Financial Analysts</h4>
+          <h6 className="investment-role">
             We are a group of professional Analysts and traders with many years
             of experience in trading Crypto, Forex,Indices and other Stocks
             market for purpose of amassing profits and making our investors

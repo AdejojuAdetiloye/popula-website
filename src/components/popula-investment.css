@@ -1,161 +1,529 @@
 .popula-investment-div {
-    height: 500px;
-    width: 1200px;
-    margin: auto;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(37, 4, 66);
+  border-radius: 15px;
+  margin-top: 150px;
+}
+
+.popula-investment-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.popula-investment-details {
+  height: 400px;
+}
+
+.popula-investment-details-title {
+  font-family: Arial;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(236, 224, 224);
+  margin-bottom: 0;
+}
+
+.popula-investment-description {
+  font-family: Arial;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: rgb(236, 224, 224);
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.popula-investment-image {
+  height: 400px;
+}
+
+.overlay-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 1000px;
+  height: 120px;
+  margin: auto;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: -50px;
+}
+
+.image-in {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-left: 5px;
+}
+
+.name {
+  font-family: Arial;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.investment-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.role {
+  margin-top: 0;
+  padding: 10px;
+  width: 700px;
+}
+
+/* RESPONSIVE SCREEN */
+
+/* Large desktop (1920px and above) */
+@media (min-width: 1920px) {
+}
+
+/* Medium Desktop View (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .investment-div {
+    width: 90%;
+    height: 600px;
     background-color: rgb(37, 4, 66);
-    border-radius: 15px;
+    border-radius: 20px;
+    padding-top: 10px;
     margin-top: 150px;
+    margin: auto;
   }
-  
-  .popula-investment-row {
+
+  .investment-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    row-gap: 10px;
   }
-  
-  .popula-investment-details {
+
+  .investment-details {
     height: 400px;
+    width: 100%;
   }
-  
-  .popula-investment-details-title {
+
+  .investment-details-title {
     font-family: Arial;
-    font-size: 2.8rem;
+    font-size: 2.1rem;
     font-weight: bolder;
     text-align: center;
     color: rgb(236, 224, 224);
     margin-bottom: 0;
   }
-  
-  .popula-investment-description{
-      font-family: Arial;
-      font-size: 1.1rem;
-      font-weight: bold;  
-      padding-left:20px;
-      padding-right: 10px;
-      color: rgb(236, 224, 224);
-      line-height: 30px;
-      margin-top: 15px;
+
+  .investment-description {
+    font-family: Arial;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(236, 224, 224);
+    line-height: 25px;
+    margin-top: 10px;
   }
-  
-  .popula-investment-image {
+
+  .investment-image {
     height: 400px;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 30px;
   }
-  
-  .overlay-div{
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      width:1000px;
-      height: 120px;
-      margin:auto;
-      background-color: white;
-      border-radius: 30px;
-      margin-top: -50px;
-  }
-  
-  .image-in{
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      padding-left: 5px;
-  }
-  
-  .name{
-      font-family: Arial;
-      font-size: 1.3rem;
-      margin-bottom: 0;
-  }
-  
-  .investment-image{
-      width:100%;
-      border-radius:15px;
-  }
-  
-  .role{
-      margin-top: 0;
-      padding: 10px;
-      width:700px;
-  }
-  
-  /* RESPONSIVE SCREEN */
-@media (max-width:360px) {
-  .popula-investment-div {
-    height: 600px;
-    max-width: 340px;
+
+  .investment-overlay-div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 900px;
+    height: 170px;
     margin: auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -80px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .investment-image-in {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .investment-name {
+    font-family: Arial;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .investment-role {
+    margin-top: 0;
+    padding: 8px;
+    width: 400px;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+
+/* Small Desktop View */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .investment-div {
+    width: 90%;
+    height: 500px;
     background-color: rgb(37, 4, 66);
     border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin: auto;
+  }
+
+  .investment-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+  }
+
+  .investment-details {
+    height: 380px;
+    width: 100%;
+  }
+
+  .investment-details-title {
+    font-family: Arial;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(236, 224, 224);
+    margin-bottom: 20px;
+  }
+
+  .investment-description {
+    font-family: Arial;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(236, 224, 224);
+    line-height: 25px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .investment-image {
+    height: 380px;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 30px;
+  }
+
+  .investment-overlay-div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 700px;
+    height: 170px;
+    margin: auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -90px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .investment-image-in {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .investment-name {
+    font-family: Arial;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .investment-role {
+    margin-top: 0;
+    padding: 8px;
+    width: 400px;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+
+/* Laptop Screen View */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .investment-div {
+    width: 100%;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(37, 4, 66);
+    border-radius: 30px;
+    padding-top: 10px;
+    margin-top: 90px;
+  }
+
+  .investment-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+  }
+
+  .investment-details {
+    height: 300px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .investment-details-title {
+    font-family: Arial;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(236, 224, 224);
+    margin-bottom: 0;
+  }
+
+  .investment-description {
+    font-family: Arial;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(236, 224, 224);
+    line-height: 22px;
+    width: 95%;
+  }
+
+  .investment-image {
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .investment-overlay-div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 700px;
+    height: 170px;
+    margin: auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -90px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .investment-image-in {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .investment-name {
+    font-family: Arial;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .investment-role {
+    margin-top: 0;
+    padding: 8px;
+    width: 400px;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+
+/* Tablet Screen View */
+@media (min-width: 601px) and (max-width: 767px) {
+  .investment-div {
+    height: 700px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(37, 4, 66);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin: auto;
+  }
+
+  .investment-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .investment-details {
+    height: 250px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .investment-details-title {
+    font-family: Arial;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(236, 224, 224);
+    margin-bottom: 0;
+  }
+
+  .investment-description {
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(236, 224, 224);
+    line-height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+
+  .investment-image {
+    height: 300px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .investment-overlay-div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 500px;
+    height: 170px;
+    margin: auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -90px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .investment-image-in {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+
+  .investment-name {
+    font-family: Arial;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .investment-role {
+    margin-top: 0;
+    padding: 8px;
+    width: 300px;
+    font-weight: bold;
+  }
+}
+
+/* Mobile Screen View */
+@media (min-width:320px) and (max-width:600px){
+  .investment-div {
+    height: 600px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(37, 4, 66);
+    border-radius: 30px;
     margin-top: 50px;
   }
   
-  .popula-investment-row {
+  .investment-row {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 10px;
   }
   
-  .popula-investment-details {
-    height: 270px;
-    width: 320px;
+  .investment-details {
+    height: 300px;
+    width: 100%;
     margin: auto;
   }
   
-  .popula-investment-details-title {
+  .investment-details-title {
     font-family: Arial;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     text-align: center;
     color: rgb(236, 224, 224);
     margin-bottom: 0;
   }
   
-  .popula-investment-description{
+  .investment-description{
       font-family: Arial;
-      font-size: 0.8rem;
-      font-weight: bold;  
-      padding-left:5px;
-      padding-right: 10px;
+      font-size: 0.7rem;
+      font-weight: bold; 
       color: rgb(236, 224, 224);
       line-height: 20px;
       margin-top: 10px;
+      padding: 10px;
+      
   }
   
-  .popula-investment-image {
-    height: 180px;
-    width: 320px;
+  .investment-image {
+    height: 230px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 25px;
   }
   
-  .overlay-div{
+  .investment-overlay-div{
       display: flex;
       align-items: center;
-      gap: 6px;
-      width:300px;
-      height: 180px;
+      gap: 3px;
+      width:90%;
+      height: 170px;
       margin:auto;
-      background-color: white;
+      background-color: rgb(213, 165, 245);
       border-radius: 40px;
-      margin-top: -60px;
-      margin-bottom: 60px;
+      margin-top: -35px;
+      margin-bottom: 70px;
+      align-items:center;
+      justify-content: center;
   }
   
-  .image-in{
-      width: 60px;
-      height: 60px;
-      border-radius: 30px;
+  .investment-image-in{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
       margin-left: 5px;
   }
   
-  .name{
+  .investment-name{
       font-family: Arial;
       font-size: 0.9rem;
       margin-bottom: 0;
   }
   
-  .role{
+  .investment-role{
       margin-top: 0;
       padding: 8px;
       width: 200px;
   }
 }
+
