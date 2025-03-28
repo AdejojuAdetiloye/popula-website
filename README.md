@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # popula-website
 This is Popula website that i created personally to showcase my expertise in building beautiful and responsive designs 
+pls view this on your phone or pc
 =======
 Check website link here 👉
 Deployed on Netlify: https://heroic-torrone-b70340.netlify.app/
