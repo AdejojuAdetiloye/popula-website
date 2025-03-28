@@ -2,6 +2,9 @@
 # popula-website
 This is Popula website that i created personally to showcase my expertise in building beautiful and responsive designs 
 =======
+Check website link here 👉
+Deployed on Netlify: https://heroic-torrone-b70340.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
