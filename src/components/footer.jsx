@@ -51,9 +51,8 @@ export default function Footer() {
           4, Ogunleye Street, The Bells, Ota, Ogun State, Nigeria.
         </h4>
       </div>
-
       <div className="second">
-        <h6 className="motto">our motto: With Integrity</h6>
+        <h6 className="motto">Motto: With Integrity</h6>
         <p className="description">
           @Popula llc, we believe in integrity and we do our services in
           integrity. Join us now and be apart of our students, staff, or
@@ -87,7 +86,7 @@ export default function Footer() {
           </button>
         </form>
       </div>
-      <div className="fourth"></div>
+      
     </div>
   );
 }

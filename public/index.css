@@ -1,0 +1,62 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* RESPONSIVE SCREEN */
+
+/* Large desktop (1920px and above) */
+@media (min-width: 1920px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Medium Desktop View (1440px - 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Small Desktop View */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Laptop Screen View */
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Tablet Screen View */
+@media (min-width: 601px) and (max-width: 767px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile Screen View */
+@media (min-width: 320px) and (max-width: 600px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+}

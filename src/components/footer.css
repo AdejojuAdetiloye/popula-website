@@ -93,18 +93,30 @@
     cursor: pointer;
 }
 
-@media (max-width:360px) {
+
+/* RESPONSIVE SCREENS */
+
+/* Large desktop (1920px and above) */
+@media (min-width:1920px){}
+
+/* Medium Desktop View (1440px - 1919px) */
+@media (min-width:1440px) and (max-width:1919px){}
+
+/* Small Desktop View */
+@media (min-width:1024px) and (max-width:1439px){
     .footer{
-        height: 700px;
-        max-width: 360px;
+        height: 300px;
+        width: 100%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding:8px;
         row-gap: 0;
+        column-gap: 0;
+        background-color: rgb(9, 1, 22);;
     }
     
     .first{
-        height:170px;
+        height:180px;
         padding:8px;
         font-weight: 400;
         color: rgb(240, 220, 220);
@@ -132,7 +144,7 @@
     
     .second{
         height:180px;
-        max-width: 360px;
+        width: 100%;
         color: rgb(240, 220, 220);
         padding: 8px;
         margin: 0;
@@ -159,49 +171,174 @@
     
     .third{
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
-        height:200px;
+        align-items: center;
+        height:250px;
         color: rgb(240, 220, 220);
         padding: 8px;
-        margin: 0;
     }
     .third .title{
         font-weight: bolder;
-        margin-left: 50px;
     }
     
     .third .message-form{
         display: flex;
-        gap:8px;
+        gap:10px;
         flex-direction: column;
         justify-content: center;
     }
     
     .message-form .email-input{
-        width: 250px;
-        height: 25px;
-        border-radius: 12.5px;
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
         padding: 5px;
+        margin: auto;
     }
     .message-form .message-input{
-        width: 250px;
+        width: 300px;
         height: 60px;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 5px;
+        margin: auto;
     }
     
     .message-form .submit-button{
-        width: 250px;
-        height: 35px;
-        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        border-radius: 15px;
         padding: 5px;
         color: white;
-        background-color: yellowgreen;
-        transition: background-color 1s;
+        background-color: rgb(53, 50, 205);
+        transition: background-color 0.15s;
         font-size: 0.9rem;
         font-weight: bolder;
-        margin-left: 7px;
+        margin: auto;
+
+    }
+    .submit-button:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }  
+}
+
+/* Laptop Screen View */
+@media (min-width:768px) and (max-width:1023px){
+    .footer{
+        height: 300px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:8px;
+        row-gap: 0;
+        column-gap: 0;
+        background-color: rgb(9, 1, 22);;
+    }
+    
+    .first{
+        height:180px;
+        padding:8px;
+        font-weight: 400;
+        color: rgb(240, 220, 220);
+        line-height: 10px;
+        margin: 0;
+    }
+    
+    .first .company{
+        font-size: 1.2rem;
+    }
+    .first .email{
+        font-size: 0.7rem;
+        margin:0;  
+    }
+    .first .phones{
+        display: flex;
+        gap:8px;
+        font-size: 0.9rem;
+        margin:0; 
+    }
+    .first .address{
+        font-size: 0.7rem;
+        margin:0; 
+    }
+    
+    .second{
+        height:180px;
+        width: 100%;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+        margin: 0;
+    }
+    
+    .second .motto{
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .second .description{
+        margin-top: 0;
+        font-weight: 300;
+        max-width: 300px;
+        font-size: 0.7rem;
+    }
+    
+    .second .copywright{
+        font-weight: 100;
+        font-size: 0.7rem;
+        margin-top:5px;
+    }
+    
+    .third{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:250px;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+    }
+    .third .title{
+        font-weight: bolder;
+    }
+    
+    .third .message-form{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .message-form .email-input{
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: auto;
+    }
+    .message-form .message-input{
+        width: 200px;
+        height: 60px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    .message-form .submit-button{
+        width: 200px;
+        height: 45px;
+        border-radius: 15px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(53, 50, 205);
+        transition: background-color 0.15s;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        margin: auto;
 
     }
     .submit-button:hover{
@@ -209,6 +346,244 @@
         color:black;
         cursor: pointer;
     }
-    
 }
 
+/* Tablet Screen View */
+@media (min-width:601px) and (max-width:767px){
+    .footer{
+        height: 500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding:8px;
+        row-gap: 0;
+        column-gap: 0;
+        background-color: rgb(9, 1, 22);;
+    }
+    
+    .first{
+        height:180px;
+        padding:8px;
+        font-weight: 400;
+        color: rgb(240, 220, 220);
+        line-height: 10px;
+        margin: 0;
+    }
+    
+    .first .company{
+        font-size: 1.2rem;
+    }
+    .first .email{
+        font-size: 0.7rem;
+        margin:0;  
+    }
+    .first .phones{
+        display: flex;
+        gap:8px;
+        font-size: 0.9rem;
+        margin:0; 
+    }
+    .first .address{
+        font-size: 0.7rem;
+        margin:0; 
+    }
+    
+    .second{
+        height:180px;
+        width: 100%;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+        margin: 0;
+    }
+    
+    .second .motto{
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .second .description{
+        margin-top: 0;
+        font-weight: 300;
+        max-width: 300px;
+        font-size: 0.7rem;
+    }
+    
+    .second .copywright{
+        font-weight: 100;
+        font-size: 0.7rem;
+        margin-top:5px;
+    }
+    
+    .third{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:250px;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+    }
+    .third .title{
+        font-weight: bolder;
+    }
+    
+    .third .message-form{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .message-form .email-input{
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: auto;
+    }
+    .message-form .message-input{
+        width: 300px;
+        height: 60px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    .message-form .submit-button{
+        width: 300px;
+        height: 45px;
+        border-radius: 15px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(53, 50, 205);
+        transition: background-color 0.15s;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        margin: auto;
+
+    }
+    .submit-button:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }
+}
+
+/* Mobile Screen View */
+@media (min-width:320px) and (max-width:600px){
+    .footer{
+        height: 800px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:8px;
+        row-gap: 0;
+        column-gap: 0;
+        background-color: rgb(9, 1, 22);;
+    }
+    
+    .first{
+        height:180px;
+        padding:8px;
+        font-weight: 400;
+        color: rgb(240, 220, 220);
+        line-height: 10px;
+        margin: 0;
+    }
+    
+    .first .company{
+        font-size: 1.2rem;
+    }
+    .first .email{
+        font-size: 0.7rem;
+        margin:0;  
+    }
+    .first .phones{
+        display: flex;
+        gap:8px;
+        font-size: 0.9rem;
+        margin:0; 
+    }
+    .first .address{
+        font-size: 0.7rem;
+        margin:0; 
+    }
+    
+    .second{
+        height:180px;
+        width: 100%;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+        margin: 0;
+    }
+    
+    .second .motto{
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+    }
+    
+    .second .description{
+        margin-top: 0;
+        font-weight: 300;
+        max-width: 300px;
+        font-size: 0.7rem;
+    }
+    
+    .second .copywright{
+        font-weight: 100;
+        font-size: 0.7rem;
+        margin-top:5px;
+    }
+    
+    .third{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:250px;
+        color: rgb(240, 220, 220);
+        padding: 8px;
+    }
+    .third .title{
+        font-weight: bolder;
+    }
+    
+    
+    .message-form .email-input{
+        width: 250px;
+        height: 30px;
+        border-radius: 15px;
+        padding: 5px;
+        margin-left:0;
+    }
+    .message-form .message-input{
+        width: 250px;
+        height: 60px;
+        border-radius: 15px;
+        padding: 5px;
+        margin-left: 0;
+    }
+    
+    .message-form .submit-button{
+        width: 250px;
+        height: 45px;
+        border-radius: 15px;
+        padding: 5px;
+        color: white;
+        background-color: rgb(53, 50, 205);
+        transition: background-color 0.15s;
+        font-size: 0.9rem;
+        font-weight: bolder;
+        margin: auto;
+
+    }
+    .submit-button:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }
+}
