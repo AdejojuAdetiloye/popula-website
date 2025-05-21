@@ -262,10 +262,9 @@
 /* Laptop Screen View */
 @media (min-width: 768px) and (max-width: 1023px) {
   .investment-div {
-    width: 100%;
+    width: 98%;
     height: 450px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
     background-color: rgb(37, 4, 66);
     border-radius: 30px;
     padding-top: 10px;
@@ -442,10 +441,9 @@
 /* Mobile Screen View */
 @media (min-width:320px) and (max-width:600px){
   .investment-div {
-    height: 600px;
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 550px;
+    width: 98%;
+    margin: auto;
     background-color: rgb(37, 4, 66);
     border-radius: 30px;
     margin-top: 50px;
@@ -454,11 +452,11 @@
   .investment-row {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 10px;
+    row-gap: 0px;
   }
   
   .investment-details {
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin: auto;
   }
@@ -473,7 +471,7 @@
   }
   
   .investment-description{
-      font-family: Arial;
+    font-family: Arial;
       font-size: 0.7rem;
       font-weight: bold; 
       color: rgb(236, 224, 224);
@@ -485,6 +483,7 @@
   
   .investment-image {
     height: 230px;
+    height: 270px;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
@@ -493,37 +492,37 @@
   }
   
   .investment-overlay-div{
-      display: flex;
-      align-items: center;
-      gap: 3px;
-      width:90%;
-      height: 170px;
-      margin:auto;
-      background-color: rgb(213, 165, 245);
-      border-radius: 40px;
-      margin-top: -35px;
-      margin-bottom: 70px;
-      align-items:center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width:90%;
+    height: 170px;
+    margin:auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -35px;
+    margin-bottom: 70px;
+    align-items:center;
+    justify-content: center;
   }
   
   .investment-image-in{
-      width: 50px;
-      height: 50px;
-      border-radius: 25px;
-      margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 5px;
   }
   
   .investment-name{
-      font-family: Arial;
-      font-size: 0.9rem;
-      margin-bottom: 0;
+    font-family: Arial;
+    font-size: 0.9rem;
+    margin-bottom: 0;
   }
   
   .investment-role{
-      margin-top: 0;
-      padding: 8px;
-      width: 200px;
+    margin-top: 0;
+    padding: 8px;
+    width: 200px;
   }
 }
 

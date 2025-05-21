@@ -27,8 +27,8 @@
 /* Large desktop (1920px and above) */
 @media (min-width:1920px){
     .welcome-div-container{
-        max-width:360px;
-        height: 150px;
+        width:100%;
+        height: 200px;
         border: 1px solid black;
         margin-top:20px;
         margin-bottom: 20px;
