@@ -14,9 +14,7 @@ export default function PopulaTech() {
               even Games that are carefully designed with security taken into
               consideration. At Popula Tech, we're passionate about leveraging
               the latest technologies to deliver cutting-edge software
-              solutions. Our team of experts stay up-to-date with the latest
-              trends and advancements in the industry, ensuring our clients
-              receive the best possible results.
+              solutions. 
             </h4>
           </div>
           <div className="popula-tech-image">

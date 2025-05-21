@@ -11,7 +11,7 @@ import WelcomeText from './components/welcome-text';
 
 function App() {
   return (
-    <main className="app-container">
+    <div className="app-container">
       {/* HEADER SECTION */}
       <header className='header'>
          <Nav />
@@ -35,7 +35,7 @@ function App() {
         <Footer />
       </footer>
       
-    </main>
+    </div>
   );
 }
 

@@ -259,10 +259,9 @@
 /* Laptop Screen View */
 @media (min-width:768px) and (max-width:1023px){
   .popula-tech-div {
-    width: 100%;
+    width: 98%;
     height: 450px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
     background-color: rgb(37, 4, 66);
     border-radius: 30px;
     padding-top: 10px;
@@ -379,12 +378,14 @@
   }
   
   .popula-tech-description{
-      font-family: Arial;
-      font-size: 1rem;
-      font-weight: bold; 
-      color: rgb(236, 224, 224);
-      line-height: 23px;
-      margin-top: 10px;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(236, 224, 224);
+    line-height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
       
   }
   
@@ -398,50 +399,50 @@
   }
   
   .overlay-div{
-      display: flex;
-      align-items: center;
-      gap: 3px;
-      width:500px;
-      height: 170px;
-      margin:auto;
-      background-color: rgb(213, 165, 245);
-      border-radius: 40px;
-      margin-top: -90px;
-      margin-bottom: 150px;
-      align-items:center;
-      justify-content: flex-start;
-      box-shadow: 10px 10px 10px gray;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 500px;
+    height: 170px;
+    margin: auto;
+    background-color: rgb(213, 165, 245);
+    border-radius: 40px;
+    margin-top: -90px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px gray;
   }
   
   .image-in{
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
   }
   
   .name{
-      font-family: Arial;
-      font-size: 0.9rem;
-      font-weight: bold;
-      margin-bottom: 5px;
+    font-family: Arial;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
   
   .role{
-      margin-top: 0;
-      padding: 8px;
-      width: 300px;
-      font-weight: bold;
+    margin-top: 0;
+    padding: 8px;
+    width: 300px;
+    font-weight: bold;
   }
 }
 
 /* Mobile Screen View */
 @media (min-width:320px) and (max-width:600px){
+  
   .popula-tech-div {
-    height: 600px;
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 550px;
+    width: 98%;
+    margin: auto;
     background-color: rgb(37, 4, 66);
     border-radius: 30px;
     margin-top: 50px;
@@ -450,11 +451,11 @@
   .popula-tech-row {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 10px;
+    row-gap: 0px;
   }
   
   .popula-tech-details {
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin: auto;
   }
@@ -480,7 +481,7 @@
   }
   
   .popula-tech-image {
-    height: 230px;
+    height: 270px;
     width: 100%;
     margin-left: 20px;
     margin-right: 20px;
