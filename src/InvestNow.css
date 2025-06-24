@@ -1,0 +1,433 @@
+.invest-now-main {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(37, 4, 66);
+}
+.invest-now-header {
+  background-color: rgb(31, 1, 59);
+  width: 100%;
+}
+.invest-now-body {
+  width: 80%;
+  margin: auto;
+  flex: 1;
+}
+.main-input {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 60%;
+  margin: auto;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-icon {
+  width: 40px;
+  height: 40px;
+}
+.input {
+  height: 40px;
+  flex: 1;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 15px;
+}
+.header-title {
+  color: orange;
+  font-family: Arial;
+  font-weight: bolder;
+  border: 2px solid orange;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.description {
+  color: orange;
+  font-family: Arial;
+  font-weight: bolder;
+  margin-top: 15px;
+  text-align: center;
+}
+.details {
+  color: white;
+  font-family: Arial;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: center;
+}
+.button-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.custom-button {
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+/* RESPONSIVE SCREENS */
+@media (min-width:300px) and (max-width:600px) {
+  .invest-now-main {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(37, 4, 66);
+  }
+  .invest-now-header {
+    background-color: rgb(31, 1, 59);
+    width: 100%;
+  }
+  .invest-now-body {
+    width: 90%;
+    padding: 8px;
+    flex: 1;
+  }
+  .main-input {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width: 90%;
+    margin: auto;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .input {
+    height: 40px;
+    flex: 1;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 14px;
+  }
+  .header-title {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .description {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 12px;
+    text-align: center;
+    width: 90%;
+  }
+  .details {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .button-div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .custom-button {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  } 
+}
+@media (min-width:601px) and (max-width:900px) {
+  .invest-now-main {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(37, 4, 66);
+  }
+  .invest-now-header {
+    background-color: rgb(31, 1, 59);
+    width: 100%;
+  }
+  .invest-now-body {
+    width: 90%;
+    padding: 8px;
+    flex: 1;
+  }
+  .main-input {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width: 90%;
+    margin: auto;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .input {
+    height: 40px;
+    flex: 1;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 14px;
+  }
+  .header-title {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .description {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 12px;
+    text-align: center;
+    width: 90%;
+  }
+  .details {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .button-div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .custom-button {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  } 
+}
+@media (min-width:901px) and (max-width:1200px) {
+  .invest-now-main {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(37, 4, 66);
+  }
+  .invest-now-header {
+    background-color: rgb(31, 1, 59);
+    width: 100%;
+  }
+  .invest-now-body {
+    width: 90%;
+    padding: 8px;
+    flex: 1;
+  }
+  .main-input {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .input {
+    height: 40px;
+    flex: 1;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 14px;
+  }
+  .header-title {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 27px;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .description {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 12px;
+    text-align: center;
+    width: 80%;
+  }
+  .details {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .button-div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .custom-button {
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  } 
+}
+@media (min-width:1201px){
+  .invest-now-main {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(37, 4, 66);
+  }
+  .invest-now-header {
+    background-color: rgb(31, 1, 59);
+    width: 100%;
+  }
+  .invest-now-body {
+    width: 50%;
+    margin: auto;
+    padding: 8px;
+    flex: 1;
+  }
+  .main-input {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .input {
+    height: 40px;
+    flex: 1;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 14px;
+  }
+  .header-title {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 27px;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .description {
+    color: orange;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 12px;
+    text-align: center;
+    width: 80%;
+  }
+  .details {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .button-div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  .custom-button {
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  } 
+}
+
+
+
