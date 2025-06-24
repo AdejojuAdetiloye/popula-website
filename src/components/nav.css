@@ -13,18 +13,10 @@
   align-items: center;
 }
 
-.popula {
-  font-family: Arial;
-  font-weight: bolder;
-  color: white;
-  font-size: 2.2rem;
-}
 
 .logo {
-  width: 70px;
+  width: 100px;
   height: 70px;
-  border-radius: 35px;
-  box-shadow: 10px 10px 10px rgb(126, 118, 202);
 }
 
 .menus {
@@ -80,19 +72,11 @@
     gap: 30px;
     align-items: center;
   }
-  
-  .popula {
-    font-family: Arial;
-    font-weight: bolder;
-    color: white;
-    font-size: 3rem;
-  }
+
   
   .logo {
     width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    box-shadow: 40px 40px 40px rgb(126, 118, 202);
+    height: 110px;
   }
   
   .menus {
@@ -216,18 +200,10 @@
     align-items: center;
   }
   
-  .popula {
-    font-family: Arial;
-    font-weight: bolder;
-    color: white;
-    font-size: 2.2rem;
-  }
   
   .logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px rgb(126, 118, 202);
+    width: 120px;
+    height: 100px;
   }
   
   .menus {
@@ -283,18 +259,10 @@
     align-items: center;
   }
   
-  .popula {
-    font-family: Arial;
-    font-weight: bolder;
-    color: white;
-    font-size: 2.1rem;
-  }
   
   .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    box-shadow: 9px 9px 9px rgb(126, 118, 202);
+    width: 110px;
+    height: 95px;
   }
   
   .menus {
@@ -350,18 +318,11 @@
     align-items: center;
   }
   
-  .popula {
-    font-family: Arial;
-    font-weight: bolder;
-    color: white;
-    font-size: 1.9rem;
-  }
+ 
   
   .logo {
-    width: 45px;
-    height: 45px;
-    border-radius: 22.5px;
-    box-shadow: 8px 8px 8px rgb(126, 118, 202);
+    width: 100px;
+    height: 90px;
   }
   
   .menus {
@@ -417,18 +378,10 @@
     align-items: center;
   }
   
-  .popula {
-    font-family: Arial;
-    font-weight: bolder;
-    color: white;
-    font-size: 1.5rem;
-  }
   
   .logo {
-    width: 35px;
-    height: 35px;
-    border-radius: 17.5px;
-    box-shadow: 8px 8px 8px rgb(126, 118, 202);
+    width: 90px;
+    height: 80px;
   }
   
   .menus {

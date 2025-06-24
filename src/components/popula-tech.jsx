@@ -10,11 +10,9 @@ export default function PopulaTech() {
             <h4 className="popula-tech-description">
               Popula Softwares is a branch of Popula that is solely for the
               development of softwares that can tackle the problems of humanity.
-              We have different applications from Web, to Mobile, Desktop, and
-              even Games that are carefully designed with security taken into
-              consideration. At Popula Tech, we're passionate about leveraging
-              the latest technologies to deliver cutting-edge software
-              solutions. 
+              At Popula Tech, we're passionate about leveraging the latest 
+              technologies to deliver cutting-edge software solutions. 
+              We are experts in Web, Mobile, Games, Desktop, AI application development.
             </h4>
           </div>
           <div className="popula-tech-image">

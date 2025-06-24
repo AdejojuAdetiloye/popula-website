@@ -1,6 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import "../components/popula-investment.css";
 
 export default function PopulaInvestment() {
+  const navigate = useNavigate();
+  //go to investment page
+  function goToInvestmentPage() {
+    navigate("/invest");
+  }
+
   return (
     <>
       <div className="investment-div">
@@ -13,26 +20,21 @@ export default function PopulaInvestment() {
             />
           </div>
           <div className="investment-details">
-            <h1 className="investment-details-title">
-              Popula Investment
-            </h1>
+            <h1 className="investment-details-title">Popula Pips</h1>
             <h4 className="investment-description">
-              At Popula Investment, we have prefessional and financial analysts
-              with many years of experience in analysing and trading
-              Crypto,Forex,Indices and other Stocks markets with the sole of
+              At Popula Pips, we have prefessional and financial analysts with
+              many years of experience in analysing and trading
+              Crypto,Forex,Indices and other Stocks markets with the goal of
               pulling profit. We make use of advance trading set ups and tactics
-              to maximize profits so our investors can always smile when
-              credited. We trade different sessions making use of our advance
-              tools and keep enriching our investors. To become part of our
-              investors, click on the Whatsapp icon at the top to get started
-              now!
+              to maximize profits so our investors can always smile. You also
+              can <span className="get-started" onClick={goToInvestmentPage}>Get Started </span> Now!
             </h4>
           </div>
         </div>
       </div>
       <div className="investment-overlay-div">
         <img
-          src={require("../assets/images/chart.jpg")}
+          src={require("../assets/images/popula-pips.png")}
           alt="thumbnail"
           className="investment-image-in"
         />
@@ -41,8 +43,7 @@ export default function PopulaInvestment() {
           <h6 className="investment-role">
             We are a group of professional Analysts and traders with many years
             of experience in trading Crypto, Forex,Indices and other Stocks
-            market for purpose of amassing profits and making our investors
-            smilling always.
+            market making our investors smile always.
           </h6>
         </div>
       </div>

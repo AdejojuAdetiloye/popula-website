@@ -6,11 +6,10 @@ export default function Nav() {
     <nav className="nav">
       <div className="logo-title">
         <img
-          src={require("../assets/images/popula-logo.png")}
+          src={require("../assets/logos/popula.png")}
           alt="logo"
           className="logo"
         />
-        <h1 className="popula">Popula</h1>
       </div>
       <div className="menus">
         <a href="https://x.com/AAAires135895" target="blank">
