@@ -15,7 +15,7 @@ export default function Nav() {
         <a href="https://x.com/AAAires135895" target="blank">
           <FaTwitter className="social-media twitter" />
         </a>
-        <a href="https://wa.me/+2347067923101" target="blank">
+        <a href="https://wa.link/hv9kjj" target="blank">
         <FaWhatsapp className="social-media whatsapp" />
         </a>
         <a href="https://www.youtube.com/@populatech" target="blank">
